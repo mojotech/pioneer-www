@@ -1,6 +1,6 @@
 # Pioneer WWW
 
 ## Dev
+    npm i
 
-    npm i -g roots@pre
-    roots watch
+    npm run-script watch

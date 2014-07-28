@@ -1,1 +1,81 @@
-global-reset()
+base()
+
+pre
+  margin: 9px 0
+
+.panes > div
+  overflow: hidden
+  box-sizing: border-box
+
+.container
+  margin: 0 auto;
+  width:1000px;
+  height:700px;
+
+.line
+  font-size: 13px;
+  padding: 2px 0px 2px 0px;
+  line-height: 0px;
+  font-family:  Consolas, Monaco, 'Andale Mono', monospace;
+  color: #f8f8f2;
+  -webkit-font-smoothing: antialiased
+  cursor: pointer
+
+.line.active
+  background-color: rgba(255, 255, 255, 0.26);
+
+.line.hovered
+  background-color: rgba(255, 255, 255, 0.13);
+
+.line.hidden
+  display: none;
+
+.pre
+  margin:0;
+  padding: 0.6em 0;
+
+.top
+  height:50%;
+  display: inline;
+
+.bottom
+  height:50%;
+  display: block;
+
+.top
+  float: left
+  width: 33.3%
+  background-color: #333
+
+#movie-theatre
+  position: relative;
+  left:50%;
+  top: 50%;
+  margin-left:-206px;
+  margin-top: -105px;
+
+.bottom.left
+  float:left;
+  width:100%;
+  background-color:#2F3129;
+
+.video
+  height:100%;
+  width:100%;
+
+/* Syntax Highlighting */
+.function
+  color: #66D9EF;
+
+.keyword
+  color: #F92672;
+
+.variable
+  color: #A6E22E;
+
+.string
+  color: #E6DB74;
+
+.constant
+  color: #AE81FF;
+

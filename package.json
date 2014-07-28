@@ -8,6 +8,10 @@
     "coffee-script": "1.7.x",
     "autoprefixer-stylus": "0.2.x",
     "axis": "0.2.x",
-    "rupture": "0.2.x"
+    "rupture": "0.2.x",
+    "roots": "git://github.com/jenius/roots#300a8eddd4489892585b662a7c813458ba85bd0a"
+  },
+  "scripts": {
+    "watch": "roots watch"
   }
 }

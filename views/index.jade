@@ -1,14 +1,26 @@
 extends layout
 
+block header
+  include templates
+
 block content
   h1 Pioneer
   p.subheadline Pioneer is an easy to understand javascript DSL to interact with your app via a real browser and test its state against expectations.
 
+  div.container.panes
+    div.top.left
+    div.top.middle
+      #movie-theatre
+    div.top.right
+    div.bottom.left
+
+  h3 What?
+
   p.description Pioneer allows you to maintain a readable code base for both programmers and product owners. It makes writing and debugging integration tests simpler, saving you time and frustration. Pioneer is stack agnostic, you can use it against your jquery powered SPA all the way up to a complex Ember/Angular/Backbone app.
+
 
   h3 Installing
 
   pre
     | npm install pioneer --save
 
-  h3 Writing your first test

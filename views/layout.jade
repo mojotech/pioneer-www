@@ -7,7 +7,21 @@ html
     meta(name='author', content= "MojoTech")
     title= path
     link(rel='stylesheet', href='css/master.css')
-    script(src="js/main.js")
+    block header
   body
     block content
+
+    script(src="bower_components/jquery/dist/jquery.js")
+    script(src="bower_components/lodash/dist/lodash.js")
+    script(src="bower_components/backbone/backbone.js")
+    script(src="bower_components/marionette/lib/backbone.marionette.js")
+    script(src="js/swf.js")
+    script(src="js/YoutubePlayer.js")
+    script(src="js/models/codeline.js")
+    script(src="js/collections/codelines.js")
+    script(src="js/views/codeline.js")
+    script(src="js/views/feature_window.js")
+    script(src="js/views/step_window.js")
+    script(src="js/views/terminal.js")
+    script(src="js/main.js")
 

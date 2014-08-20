@@ -5,4 +5,4 @@
 
     bower install
 
-    npm run-script watch
+    npm run watch

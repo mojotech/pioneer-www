@@ -189,4 +189,18 @@ Duration (0m:2s:854ms) \n \
     [0,1,2,3,4,5,6,7],
     [0,1,2,3,4,5,6,7,8]
   ];
+
+  // Headroom stuff
+  var headerElement = document.querySelector(".top-nav")
+  var headroom      = new Headroom(headerElement)
+  headroom.init()
+  window.onscroll = function(event) {
+    if($('body').scrollTop() > 80){
+      $('.top-nav').css("background-color", "rgba(0, 0, 0, .5)")
+    }
+    else{
+      $('.top-nav').css("background-color", "rgba(0, 0, 0, .02)")
+    }
+
+  }
 })()

@@ -188,4 +188,18 @@ Duration (0m:2s:854ms) \n \
     [0,1,2,3,4,5,6,7],
     [0,1,2,3,4,5,6,7,8]
   ];
+
+  // Headroom stuff
+  var headerElement = document.querySelector(".top-nav")
+  var headroom      = new Headroom(headerElement)
+  headroom.init()
+
+  window.onscroll = _.throttle(function(event) {
+    if($('body').scrollTop() > 60){
+      $('.top-nav').addClass("scrolled");
+    }
+    else{
+      $('.top-nav').removeClass("scrolled");
+    }
+  }, 100);
 })()

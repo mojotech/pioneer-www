@@ -111,7 +111,7 @@ Duration (0m:2s:854ms) \n \
     width:430,
     height: 550,
     objparams: {allowFullScreen: "false"},
-    ytparams: {showinfo: 0, controls: 0,modesbranding: 1}
+    ytparams: {showinfo: 0, controls: 0, modesbranding: 1, autoplay: 1}
   });
   setInterval(function(){
     site.MovieTheatre = document.getElementById('movie-theatre');

@@ -194,13 +194,13 @@ Duration (0m:2s:854ms) \n \
   var headerElement = document.querySelector(".top-nav")
   var headroom      = new Headroom(headerElement)
   headroom.init()
-  window.onscroll = function(event) {
-    if($('body').scrollTop() > 80){
-      $('.top-nav').css("background-color", "rgba(0, 0, 0, .5)")
+
+  window.onscroll = _.throttle(function(event) {
+    if($('body').scrollTop() > 60){
+      $('.top-nav').addClass("scrolled");
     }
     else{
-      $('.top-nav').css("background-color", "rgba(0, 0, 0, .02)")
+      $('.top-nav').removeClass("scrolled");
     }
-
-  }
+  }, 100);
 })()

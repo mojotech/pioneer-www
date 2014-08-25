@@ -1,0 +1,41 @@
+.headroom
+  transition: transform 200ms linear
+
+.top-nav
+  z-index: 2
+  position: fixed
+  width: 100%
+  margin: 0
+  text-align: right
+  line-height: 60px
+  vertical-align: middle
+  background: rgba(0, 0, 0, .02)
+  transition: background 400ms
+
+  &.scrolled
+    background: rgba(0, 0, 0, .4)
+
+  ul
+    display: inline
+    margin: 0
+    padding: 0
+    list-style-type: none
+    li
+      display: inline
+      padding: 20px
+      font-size: 12px
+      a
+        text-decoration: none
+        &:link
+          color: white
+        &:visited
+          color: white
+        &:hover
+          text-decoration: underline
+      a.active
+        color: $navy
+
+  .logo
+    position: absolute
+    left: 20px
+    top: 13px

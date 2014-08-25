@@ -87,15 +87,15 @@ window.site = window.site || {};
   });
   site.steps.render();
   var terminalLines = site.CreateLines(" \
-User:dill$ ./node_modules/.bin/dill --require steps --format=pretty \n \
+$ ./node_modules/.bin/pioneer \n \
 \n \
-Feature: TODO MVC \n \
+Feature: TODO MVC    # features/sample.feature\n \
 \n \
-  Scenario: Adding and Completing          # features/sample.feature:5 \n \
-    <span class='variable'>Given I am viewing todomvc</span>             # features/sample.feature:3 \n \
-    <span class='variable'>When I add a new todo</span>                  # features/sample.feature:6 \n \
-    <span class='variable'>And I finish it</span>                        # features/sample.feature:7 \n \
-    <span class='variable'>Then I should see no undone todos</span>      # features/sample.feature:8 \n \
+  Scenario: Adding and Completing\n \
+    <span class='variable'>Given I am viewing todomvc</span>\n \
+    <span class='variable'>When I add a new todo</span>\n \
+    <span class='variable'>And I finish it</span>\n \
+    <span class='variable'>Then I should see no undone todos</span>\n \
 \n \
 \n \
 1 scenario (<span class='variable'>1 passed</span>) \n \

@@ -1,0 +1,466 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #222;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+.contain {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+@font-face {
+  font-family: 'GothamBook';
+  src: url("../fonts/gothambook.eot");
+  src: url("../fonts/gothambook.eot") format('embedded-opentype'), url("../fonts/gothambook.woff") format('woff'), url("../fonts/gothambook.ttf") format('truetype'), url("../fonts/gothambook.svg#GothamBook") format('svg');
+}
+.headroom {
+  -webkit-transition: -webkit-transform 200ms linear;
+          transition: transform 200ms linear;
+}
+.top-nav {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  text-align: right;
+  line-height: 60px;
+  vertical-align: middle;
+  background: rgba(0,0,0,0.02);
+  -webkit-transition: background 400ms;
+          transition: background 400ms;
+}
+.top-nav.scrolled {
+  background: rgba(0,0,0,0.4);
+}
+.top-nav ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.top-nav ul li {
+  display: inline;
+  padding: 20px;
+  font-size: 12px;
+}
+.top-nav ul li a {
+  text-decoration: none;
+}
+.top-nav ul li a:link {
+  color: #fff;
+}
+.top-nav ul li a:visited {
+  color: #fff;
+}
+.top-nav ul li a:hover {
+  text-decoration: underline;
+}
+.top-nav ul li a.active {
+  color: #346c7e;
+}
+.top-nav .logo {
+  position: absolute;
+  left: 20px;
+  top: 13px;
+}
+.installing {
+  background-color: #e5e5e5;
+  padding: 30px 0;
+}
+.installing h3 {
+  font-size: 30px;
+  max-width: 850px;
+  line-height: 50px;
+}
+.installing pre {
+  text-align: left;
+  max-width: 850px;
+  line-height: 50px;
+  color: #a0a0a0;
+  font-size: 30px;
+  letter-spacing: 6px;
+  background: #ddd;
+  border-radius: 5px;
+  padding: 5px 20px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.installing pre:before {
+  content: "$";
+  margin-right: 10px;
+}
+.pieces {
+  background-color: #3a96e0;
+  background-image: url("/img/pieces_bg.png");
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+  padding: 30px 0 50px;
+}
+.pieces h3 {
+  color: #eff888;
+  font-size: 30px;
+  padding: 20px 0px 20px 0px;
+}
+.pieces p {
+  color: #fff;
+  text-align: left;
+  margin: 0;
+  max-width: 850px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.component-mark {
+  width: 10%;
+  margin-top: 20px;
+}
+.components {
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+.components ul {
+  margin: 0 auto;
+  overflow: auto;
+  max-width: 950px;
+}
+.components li {
+  clear: both;
+  margin-top: 40px;
+}
+.components li div.left {
+  width: 80%;
+  padding-left: 5%;
+}
+.components h6 {
+  font-size: 30px;
+  line-height: 60px;
+}
+.components p {
+  text-align: left;
+  line-height: 25px;
+  font-size: 14px;
+  color: #888;
+}
+@media screen and (max-width: 955px) {
+  .container.panes,
+  .half-fill {
+    display: none;
+  }
+}
+@media screen and (max-width: 865px) {
+  html .blue-wagon {
+    display: none;
+  }
+  html .what-block .description {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 635px) {
+  .installing {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .component-mark.left {
+    height: 53px;
+    width: auto;
+    float: none;
+    margin: 0 0;
+    padding-left: 30px;
+  }
+  .components li div.left {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .component-mark.left {
+    display: none;
+  }
+}
+.what {
+  padding: 30px 0 60px;
+  background: #346c7e;
+}
+.what-block .headline {
+  color: #eff888;
+  padding: 23px 0 10px;
+}
+.what-block .description {
+  color: #fff;
+  margin-left: 100px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 15px;
+}
+.blue-wagon {
+  float: left;
+  display: inline;
+  margin-left: -50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #616161;
+}
+.left {
+  float: left;
+}
+.cl {
+  clear: both;
+}
+.page-container {
+  font-family: "GothamBook";
+  -webkit-font-smoothing: antialiased;
+}
+.meet-pioneer {
+  background: #ebcd53;
+  padding-bottom: 10px;
+  position: relative;
+}
+.half-fill {
+  width: 100%;
+  position: absolute;
+  height: 44%;
+  background: #346c7e;
+  bottom: 0;
+}
+.headline {
+  padding: 100px 0px 15px 0px;
+  line-height: 60px;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  color: #346c7e;
+}
+.subheadline {
+  line-height: 30px;
+  font-size: 18px;
+  color: #346c7e;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h6 {
+  font-size: 15px;
+}
+p {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+}
+pre {
+  margin: 9px 0;
+  text-align: center;
+  font-family: 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
+}
+.browser-top {
+  background: #ebebeb;
+  width: 100%;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  line-height: 30px;
+  position: absolute;
+  top: -30px;
+}
+.browser-top ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  vertical-align: middle;
+  position: relative;
+  top: 3px;
+  left: 4px;
+}
+.browser-top ul li {
+  display: inline-block;
+  background: #d8d8d8;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+}
+.panes > div {
+  overflow: hidden;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  width: 1000px;
+  margin: 30px auto 10px;
+  min-height: 700px;
+  background: #474747;
+  box-shadow: 4px -16px 14px rgba(15,15,15,0.4);
+}
+.container pre {
+  text-align: left;
+}
+.line {
+  font-size: 12px;
+  padding: 2px 0px 2px 0px;
+  line-height: 0px;
+  color: #f8f8f2;
+  cursor: pointer;
+  -webkit-transition: all 200ms;
+          transition: all 200ms;
+}
+.line.hovered {
+  background-color: rgba(0,0,0,0.1);
+}
+.line.active {
+  background-color: rgba(0,0,0,0.29);
+}
+.line.hidden {
+  display: none;
+}
+.pre {
+  margin: 0;
+  padding: 0.6em 0;
+}
+.top {
+  height: 240px;
+}
+.bottom {
+  height: 50%;
+  display: block;
+}
+.top {
+  float: left;
+  width: 33.3%;
+}
+#movie-theatre {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -206px;
+  margin-top: -138px;
+}
+.bottom.left {
+  width: 100%;
+  height: 485px;
+  border-top: dashed 1px #3a3a3a;
+}
+/* Syntax Highlighting */
+.function {
+  color: #66d9ef;
+}
+.keyword {
+  color: #f92672;
+}
+.variable {
+  color: #a6e22e;
+}
+.string {
+  color: #e6db74;
+}
+.constant {
+  color: #ae81ff;
+}
+.getting-started {
+  background-color: #e2c32c;
+}
+.getting-started p {
+  padding: 50px;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 950px;
+  color: #001f3f;
+  font-size: 40px;
+}

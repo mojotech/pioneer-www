@@ -61,24 +61,23 @@ window.site = window.site || {};
   var stepLines = site.CreateLines(" \
 <span class='function'>module</span>.<span class = 'variable'>exports</span> = <span class='function'>function</span>() { \n \
   <span class='variable'>this</span>.Given(<span class='string'>/</span><span class='constant'>^</span><span class='string'>I am viewing todomvc</span><span class='constant'>$</span><span class='string'>/</span>, <span class='function'>function</span>(){ \n \
-      <span class='keyword'>return</span> <span class='variable'>this</span>.driver.<span class='keyword'>get</span>(<span class='string'>'http://todomvc.com/architecture-examples/backbone/'</span>); \n \
+    <span class='keyword'>return</span> <span class='variable'>this</span>.driver.<span class='function'>visit</span>(<span class='string'>'http://todomvc.com/architecture-examples/backbone/'</span>); \n \
   }); \n \
   <span class='variable'>this</span>.When(<span class='string'>/</span><span class='constant'>^</span><span class='string'>I add a new todo</span><span class='constant'>$</span><span class='string'>/</span>, <span class='function'>function</span>(){ \n \
-    <span class='keyword'>return</span> <span class='variable'>this</span>.Widget.<span class='function'>find</span>({ \n \
-      root: <span class='string'>'#new-todo' </span>\n \
-    }).then(<span class='function'>function</span>(widget) { \n \
-      <span class='keyword'>return</span> widget.el.sendKeys(<span class='string'>'doge'</span>, Driver.Key.ENTER); \n \
+    <span class='keyword'>return</span> <span class='variable'>this</span>.Widget.<span class='function'>fill</span>({ \n \
+      selector: <span class='string'>'#new-todo'</span>,\n \
+      value: [<span class='string'>'doge'</span>, Driver.Key.Enter]\n \
+    }) \n \
+  }); \n \
+  <span class='variable'>this</span>.When(<span class='string'>/</span><span class='constant'>^</span><span class='string'>I finish it</span><span class='constant'>$</span><span class='string'>/</span>, <span class='function'>function</span>(){ \n \
+    <span class='keyword'>return</span> <span class='variable'>this</span>.Widget.<span class='function'>click</span>({ \n \
+      selector:<span class='string'>'#todo-list .toggle'</span> \n \
     }); \n \
   }); \n \
-  <span class='variable'>this</span>.When(<span class='string'>/</span><span class='constant'>^</span><span class='string'>I finsih it</span><span class='constant'>$</span><span class='string'>/</span>, <span class='function'>function</span>(callback){ \n \
-    <span class='keyword'>return new</span> <span class='variable'>this</span>.Widget({ \n \
-     root:<span class='string'>'#todo-list.toggle'</span> \n \
-    }).<span class='function'>click</span>(); \n \
-  }); \n \
-  <span class='keyword'>return</span> <span class='variable'>this</span>.Then(<span class='string'>/</span><span class='constant'>^</span><span class='string'>I should see no undone todos</span><span class='constant'>$</span><span class='string'>/</span>, <span class='function'>function</span>(callback){ \n \
-   <span class='keyword'>return new</span> <span class='variable'>this</span>.Widget({ \n \
-     root: <span class='string'>'#todo-count'</span> \n \
-   }).read().should.eventually.eql(<span class='string'>'0 items left'</span>); \n \
+  <span class='keyword'>return</span> <span class='variable'>this</span>.Then(<span class='string'>/</span><span class='constant'>^</span><span class='string'>I should see no undone todos</span><span class='constant'>$</span><span class='string'>/</span>, <span class='function'>function</span>(){ \n \
+    <span class='keyword'>return</span> <span class='variable'>this</span>.Widget.<span class='function'>read</span>({ \n \
+      selector: <span class='string'>'#todo-count'</span> \n \
+    }).should.eventually.eql(<span class='string'>'0 items left'</span>); \n \
   }); \n \
 }; \
   ")
@@ -164,9 +163,9 @@ Duration (0m:2s:854ms) \n \
   site.p2 = [
     [0],
     [1,2,3],
-    [4,5,6,7,8,9,10],
-    [11,12,13,14,15],
-    [16,17,18,19,20,21]
+    [4,5,6,7,8,9],
+    [10,11,12,13,14],
+    [15,16,17,18,19,20]
   ];
   site.p3 = [
     [2],

@@ -1,0 +1,157 @@
+<h2 id="v2-0-0-v2-0-x">v2.0.0 - v2.0.x</h2>
+<p>No breaking changes have been introduced between these versions</p>
+<h2 id="v1-x-x-v2-0-0">v1.x.x - v2.0.0</h2>
+<p>Large amounts of things have changed between these releases.
+Please refer to <a href="https://github.com/marionettejs/Marionette.Upgrade">https://github.com/marionettejs/Marionette.Upgrade</a> to ease the transition from any 1.x app.</p>
+<h2 id="v-1-7-x-v1-8-x">v.1.7.x - v1.8.x</h2>
+<p>No breaking changes have been introduced between these versions</p>
+<h2 id="upgrade-to-v-1-5-0-v-1-7-x">Upgrade to v.1.5.0 ~ v.1.7.x</h2>
+<p>If you are overriding <code>appendHTML</code> in your <code>collectionView</code> or <code>compositeView</code> make sure to update your method to match the <a href="https://github.com/marionettejs/backbone.marionette/blob/master/src/marionette.collectionview.js#L299">buffering implementation</a>. If you do not you may observe the <code>show</code> event not being called per <code>itemViews</code></p>
+<h2 id="upgrade-to-v-1-1-0-v-1-4-x">Upgrade to v.1.1.0 ~ v.1.4.x</h2>
+<p>No breaking changes have been introduced between these versions</p>
+<h2 id="upgrade-to-v1-1-0">Upgrade to v1.1.0</h2>
+<p>v1.1.0 adds a few new features, but should not break any existing API or
+behavior. It should, therefore, be a drop-in replacement for v1.0.x.</p>
+<p>Please see the <a href="https://github.com/marionettejs/backbone.marionette/blob/master/changelog.md">changelog</a>
+for the complete list of what was added and fixed in this release.</p>
+<h2 id="upgrade-to-v1-0-0">Upgrade to v1.0.0</h2>
+<p>In addition to the following notes, please see previous upgrade guide entries and the
+<a href="https://github.com/marionettejs/backbone.marionette/blob/master/changelog.md">changelog</a>.</p>
+<h3 id="backbone-1-0-and-underscore-1-4-4">Backbone 1.0 and Underscore 1.4.4</h3>
+<p>Marionette v1.0 is built and tested with Backbone v1.0 and Underscore v1.4.4. You should be
+able to use Backbone v0.9.9 or v0.9.10 with Marionette 1.0, but there is no
+guarantee that everything will work as expected. Older versions of
+Backbone are not supported at all.</p>
+<p>As of Backbone v1.0, calling <code>fetch()</code> on a collection will not trigger the <strong>reset</strong> event
+by default. This will cause Marionette&#39;s <a href="https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.collectionview.md">CollectionView</a> and <a href="https://github.com/marionettejs/backbone.marionette/blob/master/docs/marionette.compositeview.md">CompositeView</a> to not function
+as expected. Be sure to pass the <code>reset: true</code> option when calling <code>fetch()</code>.</p>
+<h3 id="wreqr-v0-2-0">Wreqr v0.2.0</h3>
+<p>This update renames the <code>addHandler</code> methods to <code>setHandler</code> to help
+set the expectation that there is a single handler for any given
+command or request/response handler. When updating to Wreqr v0.2.0,
+you will need to change all calls to <code>addHandler</code> to <code>setHandler</code>. For
+more information on other changes in Wreqr, see the
+<a href="https://github.com/marionettejs/backbone.wreqr/blob/master/CHANGELOG.md">Wreqr changelog</a>.</p>
+<h3 id="grunt-v0-4">Grunt v0.4</h3>
+<p>Grunt v0.4 has a significantly different architecture than previous versions. If
+you are building Marionette and/or running the specs from your local computer, you
+will need to update to the latest version of Grunt v0.4 to do so.</p>
+<p>See the
+<a href="http://gruntjs.com/getting-started">getting started guide for Grunt</a>.</p>
+<p>Once you have done that, you should be able to run Grunt to get things rolling.</p>
+<h3 id="marionette-createobject">Marionette.createObject</h3>
+<p>This method has been removed. It was never used by Marionette directly,
+and you should replace its use with a proper polyfill such as Modernizr.</p>
+<h2 id="upgrade-to-v1-0-0-rc4">Upgrade to v1.0.0-rc4</h2>
+<p>RC4 is mostly bug fixes and zombie killing. There are a few
+things that you need to pay attention to, though. Check the
+<a href="https://github.com/marionettejs/backbone.marionette/blob/master/changelog.md">changelog</a>
+for a more complete list.</p>
+<h3 id="marionette-addeventbinder-function-has-been-removed">Marionette.addEventBinder Function Has Been Removed</h3>
+<p>The method <code>Marionette.addEventBinder</code> has been removed
+entirely. If you were using this method call in your code,
+you will need to delete that line of code.</p>
+<p>The replacement for this is simply Backbone.Events, which
+has the necessary <code>.listenTo</code> and <code>.stopListening</code> methods,
+as noted in previous upgrade guide entries.</p>
+<p>The <code>addEventBinder</code> had provided a 4th <code>context</code> parameter
+to the <code>.listenTo</code> and <code>.stopListening</code> methods, in anticipation
+of Backbone adding these in a future release. After further
+discussion and research, though, I realized that this parameter
+is not needed. Further, Backbone is not going to be adding this
+parameter any time soon. There has not been a clear need for
+it.</p>
+<h3 id="marionette-eventaggregator-object-has-been-removed">Marionette.EventAggregator Object Has Been Removed</h3>
+<p>The <code>Marionette.EventAggregator</code> object did nothing more than
+import <code>Backbone.Wreqr.EventAggregator</code> in to the Marionette
+namespace. This has been removed as it added no value. Replace
+all uses of <code>Marionette.EventAggregator</code> with
+<code>Backbone.Wreqr.EventAggregator</code>.</p>
+<h2 id="upgrade-v1-0-0-rc3-to-backbone-v0-9-10-and-jquery-v1-9-0">Upgrade v1.0.0-rc3 to Backbone v0.9.10 and jQuery v1.9.0</h2>
+<p>This is a simple update:</p>
+<ul>
+<li>Update Backbone to v0.9.10</li>
+<li>Update jQuery to v1.9.0</li>
+</ul>
+<p>Note that there are no changes in Marionette for this minor.
+You should not have to change any Marionette specific code
+to update your app. You may have to change code that core
+Backbone runs, or that jQuery runs, though. This includes
+any core Backbone features that are included in Marionette,
+such as the use of the <code>view.make</code> function which is no
+longer included in Backbone.View.</p>
+<p>For more information on what you may need to change, see
+the change logs for
+<a href="http://backbonejs.org/#changelog">Backbone v0.9.10</a>
+and the upgrade guide for <a href="http://jquery.com/upgrade-guide/1.9/">jQuery v1.9.0</a></p>
+<h2 id="upgrade-from-v1-0-0-rc2-to-v1-0-0-rc3">Upgrade from v1.0.0-rc2 to v1.0.0-rc3</h2>
+<p>There are several breaking changes that occurred between v1.0.0-rc2 and
+v1.0.0-rc3 that need special attention. Please use this upgrade guide
+as a list of things that you need to account for when updating.</p>
+<p>In general, you need to grab the latest version of Backbone, Underscore,
+and Backbone.Wreqr.</p>
+<h3 id="backbone-v0-9-2-no-longer-supported">Backbone v0.9.2 no longer supported</h3>
+<p>First and foremost, with the release of Backbone v0.9.9, we are no
+longer supporting Backbone v0.9.2. There are several additions to
+v0.9.9 that have made code previously found in Marionette&#39;s pre-requisites
+obsolete. This has caused a ripple effect of API changes for
+naming consistency in Marionette.</p>
+<p>In order to use Marionette v1.0.0-rc3, you must upgrade to Backbone
+v0.9.9 and Underscore v1.4.3 or higher (as necessary, with Backbone
+versions).</p>
+<h3 id="backbone-eventbinder-is-now-obsolete">Backbone.EventBinder is now obsolete</h3>
+<p>With Backbone v0.9.9, the Backbone.EventBinder pre-requisite is now
+osbsolete. It will be kept around for backward compatibility with
+older versions of Marionette and Backbone, but it is no longer used
+by Marionette directly. Unless you have a significant investment in
+its use, you should discontinue its use when ugprading to Marionette
+v1.0.0-rc3.</p>
+<p>To replace the use of Backbone.EventBinder in your Marionette applications,
+you have two choices:</p>
+<ol>
+<li>Mix Backbone.Events in to your objects directly</li>
+<li>Use Backbone.Wreqr.EventAggregator</li>
+</ol>
+<p>With the introduction of <code>.listenTo</code> and <code>.stopListening</code> to Backbone.Events,
+the need for Backbone.EventBinder is no longer there. You can either
+use <code>_.extend(myObject, Backbone.Events)</code> to mix in Backbone.Events
+directly, or you can use an instance of <code>Backbone.Wreqr.EventAggregator</code>
+to replace your Backbone.EventBinder instances, directly.</p>
+<p>Along with this dependency being obsolete now, you should make the
+following changes:</p>
+<ul>
+<li>Replace <code>bindTo</code> with <code>listenTo</code></li>
+<li>Replace <code>unbindAll</code> with <code>stopListening</code></li>
+<li>Remove calls to <code>unbindFrom</code> as this has no equivalent</li>
+</ul>
+<h3 id="marionette-async-is-no-longer-supported">Marionette.Async is no longer supported</h3>
+<p>The Marionette.Async library was a mistake from the start. It advocated
+bad practices by making the View layer responsible for the knowledge
+of application workflow. I&#39;m happy to say that it has been removed
+from Marionette and is no longer supported.</p>
+<p>If your app currently relies on Marionette.Async, I suggest re-thinking
+the architecture before upgrading to Marionette v1.0.0-rc3 or later. Specifically,
+move any logic that deals with asynchronous calls, and workflow / process
+logic out of your views and in to a Marionette.Controller or other object
+that can properly coordinate the efforts.</p>
+<p>For example, loading a model before displaying it:</p>
+<pre><code class="lang-js">Marionette.Controller.extend({
+  showById: function(id){
+    var model = new MyModel({
+      id: id
+    });
+
+    var promise = model.fetch();
+
+    $.when(promise).then(_.bind(this.showIt, this));
+  },
+
+  showIt: function(model){
+    var view = new MyView({
+      model: model
+    });
+
+    MyApp.myRegion.show(view);
+  }
+});
+</code></pre>

@@ -12,6 +12,10 @@
     "roots": "3.0.0-rc.8"
   },
   "scripts": {
-    "watch": "roots watch"
+    "watch": "roots watch",
+    "deploy": "roots compile && ship public/ -to gh-pages"
+  },
+  "devDependencies": {
+    "ship": "^0.1.1"
   }
 }

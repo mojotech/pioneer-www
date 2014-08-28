@@ -1,97 +1,220 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="91.529px" height="91.529px" viewBox="0 0 91.529 91.529" enable-background="new 0 0 91.529 91.529" xml:space="preserve">
-<path fill="#4BC2D6" d="M91.529,45.764c0,25.275-20.49,45.766-45.765,45.766S0,71.039,0,45.764C0,20.49,20.489,0,45.764,0
-	S91.529,20.49,91.529,45.764"/>
-<g opacity="0.2">
-	<g>
-		<defs>
-			<rect id="SVGID_1_" x="16.354" y="24.521" width="63.438" height="48.786"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  overflow="visible"/>
-		</clipPath>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M23.225,55.646v9.229h4.467c0.427-2.769,2.72-4.457,5.699-4.457
-			c2.978,0,5.501,2.158,5.697,4.457h15.763c0.458-2.246,2.634-4.66,5.601-4.66c2.965,0,5.608,2.414,6.066,4.66h3.775v-9.229H23.225z
-			"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="2.045" stroke-miterlimit="10" d="M23.225,55.646
-			v9.229h4.467c0.427-2.769,2.72-4.457,5.699-4.457c2.978,0,5.501,2.158,5.697,4.457h15.763c0.458-2.246,2.634-4.66,5.601-4.66
-			c2.965,0,5.608,2.414,6.066,4.66h3.775v-9.229H23.225z"/>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M39.323,66.174c0,3.268-2.648,5.916-5.916,5.916
-			c-3.267,0-5.915-2.648-5.915-5.916c0-3.266,2.648-5.914,5.915-5.914C36.675,60.26,39.323,62.908,39.323,66.174"/>
-
-			<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="2.308" stroke-miterlimit="10" cx="33.407" cy="66.174" r="5.916"/>
-		<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#50aae0" d="M30.953,66.022
-			c0.062-1.335,1.231-2.382,2.573-2.31c1.336,0.072,2.391,1.229,2.337,2.566c-0.052,1.325-1.212,2.402-2.544,2.359
-			C31.929,68.588,30.888,67.438,30.953,66.022"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="0.469" stroke-miterlimit="10" d="M30.953,66.022
-			c0.062-1.335,1.231-2.382,2.573-2.31c1.336,0.072,2.391,1.229,2.337,2.566c-0.052,1.325-1.212,2.402-2.544,2.359
-			C31.929,68.588,30.888,67.438,30.953,66.022z"/>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M66.455,66.236c0,3.268-2.647,5.916-5.914,5.916
-			c-3.269,0-5.916-2.648-5.916-5.916c0-3.266,2.647-5.914,5.916-5.914C63.808,60.322,66.455,62.971,66.455,66.236"/>
-
-			<circle clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="2.308" stroke-miterlimit="10" cx="60.54" cy="66.236" r="5.915"/>
-		<path clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#50aae0" d="M58.086,66.086
-			c0.062-1.335,1.231-2.382,2.572-2.311c1.338,0.074,2.393,1.229,2.338,2.567c-0.052,1.325-1.212,2.402-2.544,2.358
-			C59.062,68.652,58.021,67.501,58.086,66.086"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="0.469" stroke-miterlimit="10" d="M58.086,66.086
-			c0.062-1.335,1.231-2.382,2.572-2.311c1.338,0.074,2.393,1.229,2.338,2.567c-0.052,1.325-1.212,2.402-2.544,2.358
-			C59.062,68.652,58.021,67.501,58.086,66.086z"/>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M21.837,48.859l-4.201-19.9c0,0-1.594-4.044,3.119-1.35
-			c0,0,8.812,3.622,15.624-1.841c0,0,13.764,8.19,25.854,0c0,0,8.049,5.821,14.271,3.191c0,0,3.229-1.853,1.979,2.012l-6.125,18.081
-			L21.837,48.859z"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="2.045" stroke-miterlimit="10" d="M21.837,48.859
-			l-4.201-19.9c0,0-1.594-4.044,3.119-1.35c0,0,8.812,3.622,15.624-1.841c0,0,13.764,8.19,25.854,0c0,0,8.049,5.821,14.271,3.191
-			c0,0,3.229-1.853,1.979,2.012l-6.125,18.081L21.837,48.859z"/>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M29.162,28.688v7.467c0,0.564,0.456,1.021,1.02,1.021
-			c0.563,0,1.02-0.456,1.02-1.021v-7.129C30.473,28.981,29.792,28.868,29.162,28.688"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="0.469" stroke-miterlimit="10" d="M29.162,28.688
-			v7.467c0,0.564,0.456,1.021,1.02,1.021c0.563,0,1.02-0.456,1.02-1.021v-7.129C30.473,28.981,29.792,28.868,29.162,28.688z"/>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M44.282,29.388v4.928c0,0.564,0.456,1.019,1.02,1.019
-			c0.563,0,1.021-0.455,1.021-1.019v-4.283C45.596,29.877,44.919,29.655,44.282,29.388"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="0.469" stroke-miterlimit="10" d="M44.282,29.388
-			v4.928c0,0.564,0.456,1.019,1.02,1.019c0.563,0,1.021-0.455,1.021-1.019v-4.283C45.596,29.877,44.919,29.655,44.282,29.388z"/>
-		<polygon clip-path="url(#SVGID_2_)" fill="#50aae0" points="21.909,49.053 72.358,49.053 70.121,55.972 23.054,55.972 		"/>
-		<polygon clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="2.045" stroke-miterlimit="10" points="
-			21.909,49.053 72.358,49.053 70.121,55.972 23.054,55.972 		"/>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M50.822,30.217v5.06c0,0.564,0.457,1.02,1.021,1.02s1.021-0.456,1.021-1.02
-			v-5.478C52.22,29.989,51.541,30.132,50.822,30.217"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="0.469" stroke-miterlimit="10" d="M50.822,30.217
-			v5.06c0,0.564,0.457,1.02,1.021,1.02s1.021-0.456,1.021-1.02v-5.478C52.22,29.989,51.541,30.132,50.822,30.217z"/>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M67.138,29.156v7.467c0,0.564,0.456,1.02,1.021,1.02
-			c0.562,0,1.021-0.456,1.021-1.02v-7.13C68.449,29.45,67.768,29.336,67.138,29.156"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="0.469" stroke-miterlimit="10" d="M67.138,29.156
-			v7.467c0,0.564,0.456,1.02,1.021,1.02c0.562,0,1.021-0.456,1.021-1.02v-7.13C68.449,29.45,67.768,29.336,67.138,29.156z"/>
-		<path clip-path="url(#SVGID_2_)" fill="#50aae0" d="M23.048,61.085H18.12c-0.565,0-1.02,0.458-1.02,1.021s0.455,1.021,1.02,1.021
-			h4.283C22.557,62.4,22.781,61.725,23.048,61.085"/>
-		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#50aae0" stroke-width="0.469" stroke-miterlimit="10" d="M23.048,61.085
-			H18.12c-0.565,0-1.02,0.458-1.02,1.021s0.455,1.021,1.02,1.021h4.283C22.557,62.4,22.781,61.725,23.048,61.085z"/>
-	</g>
-</g>
-<path fill="none" stroke="#FFFFFF" stroke-width="2.045" stroke-miterlimit="10" d="M22.231,55.105v9.229h4.468
-	c0.426-2.769,2.719-4.457,5.698-4.457c2.978,0,5.501,2.158,5.697,4.457h15.764c0.459-2.244,2.634-4.659,5.6-4.659
-	s5.609,2.415,6.068,4.659h3.773v-9.229H22.231z"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="2.308" stroke-miterlimit="10" cx="32.414" cy="65.633" r="5.915"/>
-<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M29.959,65.481c0.062-1.335,1.231-2.382,2.573-2.31
-	c1.337,0.072,2.391,1.229,2.337,2.566c-0.052,1.325-1.212,2.404-2.544,2.359C30.936,68.047,29.895,66.896,29.959,65.481"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="2.308" stroke-miterlimit="10" cx="59.547" cy="65.696" r="5.916"/>
-<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M57.093,65.545c0.062-1.335,1.231-2.382,2.573-2.311
-	c1.336,0.074,2.391,1.229,2.337,2.568c-0.052,1.324-1.212,2.401-2.544,2.357C58.068,68.111,57.027,66.96,57.093,65.545"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="2.045" stroke-miterlimit="10" d="M20.844,48.319l-4.201-19.901
-	c0,0-1.595-4.044,3.119-1.35c0,0,8.812,3.622,15.624-1.84c0,0,13.763,8.189,25.853,0c0,0,8.051,5.82,14.272,3.19
-	c0,0,3.229-1.853,1.978,2.013l-6.123,18.081L20.844,48.319z"/>
-<path fill="#FFFFFF" d="M28.168,28.146v7.467c0,0.564,0.456,1.021,1.019,1.021c0.564,0,1.021-0.456,1.021-1.021v-7.129
-	C29.479,28.44,28.798,28.327,28.168,28.146"/>
-<path fill="#FFFFFF" d="M43.288,28.847v4.928c0,0.564,0.456,1.02,1.02,1.02c0.563,0,1.021-0.456,1.021-1.02v-4.283
-	C44.602,29.336,43.926,29.114,43.288,28.847"/>
-<polygon fill="none" stroke="#FFFFFF" stroke-width="2.045" stroke-miterlimit="10" points="20.916,48.513 71.365,48.513
-	69.129,55.432 22.061,55.432 "/>
-<path fill="#FFFFFF" d="M49.829,29.676v5.06c0,0.565,0.456,1.02,1.021,1.02c0.562,0,1.02-0.455,1.02-1.02v-5.478
-	C51.227,29.448,50.548,29.591,49.829,29.676"/>
-<path fill="#FFFFFF" d="M66.145,28.615v7.467c0,0.564,0.455,1.021,1.02,1.021c0.562,0,1.021-0.456,1.021-1.021v-7.13
-	C67.455,28.909,66.775,28.795,66.145,28.615"/>
-<path fill="#FFFFFF" d="M22.054,60.544h-4.928c-0.564,0-1.02,0.458-1.02,1.021s0.456,1.021,1.02,1.021h4.283
-	C21.564,61.859,21.787,61.184,22.054,60.544"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="92px" height="92px" viewBox="0 0 92 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Untitled</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-3" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-5" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-7" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-9" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-11" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-13" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-15" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-17" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-19" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-21" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-23" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-25" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-27" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-29" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-31" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-33" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-35" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-37" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-39" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-41" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-43" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-45" x="0" y="0" width="63.438" height="48.786"></rect>
+        <rect id="path-47" x="0" y="0" width="63.438" height="48.786"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="wagon" sketch:type="MSLayerGroup">
+            <path d="M91.529,45.764 C91.529,71.039 71.039,91.53 45.764,91.53 C20.489,91.53 0,71.039 0,45.764 C0,20.49 20.489,0 45.764,0 C71.039,0 91.529,20.49 91.529,45.764" id="Shape" fill="#4CAAE5" sketch:type="MSShapeGroup"></path>
+            <g id="Group" transform="translate(16.000000, 25.000000)">
+                <g id="Clipped">
+                    <g>
+                        <mask id="mask-2" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M7.225,30.646 L7.225,39.875 L11.692,39.875 C12.119,37.106 14.412,35.418 17.391,35.418 C20.369,35.418 22.892,37.576 23.088,39.875 L38.851,39.875 C39.309,37.629 41.485,35.215 44.452,35.215 C47.417,35.215 50.06,37.629 50.518,39.875 L54.293,39.875 L54.293,30.646 L7.225,30.646 L7.225,30.646 Z" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-4" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M7.225,30.646 L7.225,39.875 L11.692,39.875 C12.119,37.106 14.412,35.418 17.391,35.418 C20.369,35.418 22.892,37.576 23.088,39.875 L38.851,39.875 C39.309,37.629 41.485,35.215 44.452,35.215 C47.417,35.215 50.06,37.629 50.518,39.875 L54.293,39.875 L54.293,30.646 L7.225,30.646 L7.225,30.646 Z" id="Shape" stroke="#50AAE0" stroke-width="2.045" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-6" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M23.323,41.174 C23.323,44.442 20.675,47.09 17.407,47.09 C14.14,47.09 11.492,44.442 11.492,41.174 C11.492,37.908 14.14,35.26 17.407,35.26 C20.675,35.26 23.323,37.908 23.323,41.174" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-6)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-8" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <circle id="Oval" stroke="#50AAE0" stroke-width="2.308" sketch:type="MSShapeGroup" mask="url(#mask-8)" cx="16.916" cy="40.916" r="5.916"></circle>
+                    </g>
+                    <g>
+                        <mask id="mask-10" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M14.953,41.022 C15.015,39.687 16.184,38.64 17.526,38.712 C18.862,38.784 19.917,39.941 19.863,41.278 C19.811,42.603 18.651,43.68 17.319,43.637 C15.929,43.588 14.888,42.438 14.953,41.022" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-10)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-12" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M14.953,41.022 C15.015,39.687 16.184,38.64 17.526,38.712 C18.862,38.784 19.917,39.941 19.863,41.278 C19.811,42.603 18.651,43.68 17.319,43.637 C15.929,43.588 14.888,42.438 14.953,41.022 L14.953,41.022 Z" id="Shape" stroke="#50AAE0" stroke-width="0.469" sketch:type="MSShapeGroup" mask="url(#mask-12)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-14" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-13"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M50.455,41.236 C50.455,44.504 47.808,47.152 44.541,47.152 C41.272,47.152 38.625,44.504 38.625,41.236 C38.625,37.97 41.272,35.322 44.541,35.322 C47.808,35.322 50.455,37.971 50.455,41.236" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-14)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-16" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-15"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <circle id="Oval" stroke="#50AAE0" stroke-width="2.308" sketch:type="MSShapeGroup" mask="url(#mask-16)" cx="44.915" cy="40.915" r="5.915"></circle>
+                    </g>
+                    <g>
+                        <mask id="mask-18" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-17"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M42.086,41.086 C42.148,39.751 43.317,38.704 44.658,38.775 C45.996,38.849 47.051,40.004 46.996,41.342 C46.944,42.667 45.784,43.744 44.452,43.7 C43.062,43.652 42.021,42.501 42.086,41.086" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-18)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-20" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-19"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M42.086,41.086 C42.148,39.751 43.317,38.704 44.658,38.775 C45.996,38.849 47.051,40.004 46.996,41.342 C46.944,42.667 45.784,43.744 44.452,43.7 C43.062,43.652 42.021,42.501 42.086,41.086 L42.086,41.086 Z" id="Shape" stroke="#50AAE0" stroke-width="0.469" sketch:type="MSShapeGroup" mask="url(#mask-20)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-22" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-21"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M5.837,23.859 L1.636,3.959 C1.636,3.959 0.042,-0.085 4.755,2.609 C4.755,2.609 13.567,6.231 20.379,0.768 C20.379,0.768 34.143,8.958 46.233,0.768 C46.233,0.768 54.282,6.589 60.504,3.959 C60.504,3.959 63.733,2.106 62.483,5.971 L56.358,24.052 L5.837,23.859 L5.837,23.859 Z" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-22)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-24" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-23"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M5.837,23.859 L1.636,3.959 C1.636,3.959 0.042,-0.085 4.755,2.609 C4.755,2.609 13.567,6.231 20.379,0.768 C20.379,0.768 34.143,8.958 46.233,0.768 C46.233,0.768 54.282,6.589 60.504,3.959 C60.504,3.959 63.733,2.106 62.483,5.971 L56.358,24.052 L5.837,23.859 L5.837,23.859 Z" id="Shape" stroke="#50AAE0" stroke-width="2.045" sketch:type="MSShapeGroup" mask="url(#mask-24)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-26" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-25"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M13.162,3.688 L13.162,11.155 C13.162,11.719 13.618,12.176 14.182,12.176 C14.745,12.176 15.202,11.72 15.202,11.155 L15.202,4.026 C14.473,3.981 13.792,3.868 13.162,3.688" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-26)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-28" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-27"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M13.162,3.688 L13.162,11.155 C13.162,11.719 13.618,12.176 14.182,12.176 C14.745,12.176 15.202,11.72 15.202,11.155 L15.202,4.026 C14.473,3.981 13.792,3.868 13.162,3.688 L13.162,3.688 Z" id="Shape" stroke="#50AAE0" stroke-width="0.469" sketch:type="MSShapeGroup" mask="url(#mask-28)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-30" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-29"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M28.282,4.388 L28.282,9.316 C28.282,9.88 28.738,10.335 29.302,10.335 C29.865,10.335 30.323,9.88 30.323,9.316 L30.323,5.033 C29.596,4.877 28.919,4.655 28.282,4.388" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-30)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-32" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-31"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M28.282,4.388 L28.282,9.316 C28.282,9.88 28.738,10.335 29.302,10.335 C29.865,10.335 30.323,9.88 30.323,9.316 L30.323,5.033 C29.596,4.877 28.919,4.655 28.282,4.388 L28.282,4.388 Z" id="Shape" stroke="#50AAE0" stroke-width="0.469" sketch:type="MSShapeGroup" mask="url(#mask-32)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-34" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-33"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M5.909,24.053 L56.358,24.053 L54.121,30.972 L7.054,30.972 L5.909,24.053 Z" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-34)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-36" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-35"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M5.909,24.053 L56.358,24.053 L54.121,30.972 L7.054,30.972 L5.909,24.053 Z" id="Shape" stroke="#50AAE0" stroke-width="2.045" sketch:type="MSShapeGroup" mask="url(#mask-36)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-38" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-37"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M34.822,5.217 L34.822,10.277 C34.822,10.841 35.279,11.297 35.843,11.297 C36.407,11.297 36.864,10.841 36.864,10.277 L36.864,4.799 C36.22,4.989 35.541,5.132 34.822,5.217" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-38)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-40" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-39"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M34.822,5.217 L34.822,10.277 C34.822,10.841 35.279,11.297 35.843,11.297 C36.407,11.297 36.864,10.841 36.864,10.277 L36.864,4.799 C36.22,4.989 35.541,5.132 34.822,5.217 L34.822,5.217 Z" id="Shape" stroke="#50AAE0" stroke-width="0.469" sketch:type="MSShapeGroup" mask="url(#mask-40)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-42" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-41"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M51.138,4.156 L51.138,11.623 C51.138,12.187 51.594,12.643 52.159,12.643 C52.721,12.643 53.18,12.187 53.18,11.623 L53.18,4.493 C52.449,4.45 51.768,4.336 51.138,4.156" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-42)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-44" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-43"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M51.138,4.156 L51.138,11.623 C51.138,12.187 51.594,12.643 52.159,12.643 C52.721,12.643 53.18,12.187 53.18,11.623 L53.18,4.493 C52.449,4.45 51.768,4.336 51.138,4.156 L51.138,4.156 Z" id="Shape" stroke="#50AAE0" stroke-width="0.469" sketch:type="MSShapeGroup" mask="url(#mask-44)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-46" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-45"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M7.048,36.085 L2.12,36.085 C1.555,36.085 1.1,36.543 1.1,37.106 C1.1,37.669 1.555,38.127 2.12,38.127 L6.403,38.127 C6.557,37.4 6.781,36.725 7.048,36.085" id="Shape" fill="#50AAE0" sketch:type="MSShapeGroup" mask="url(#mask-46)"></path>
+                    </g>
+                    <g>
+                        <mask id="mask-48" sketch:name="SVGID_1_" fill="white">
+                            <use xlink:href="#path-47"></use>
+                        </mask>
+                        <g id="SVGID_1_"></g>
+                        <path d="M7.048,36.085 L2.12,36.085 C1.555,36.085 1.1,36.543 1.1,37.106 C1.1,37.669 1.555,38.127 2.12,38.127 L6.403,38.127 C6.557,37.4 6.781,36.725 7.048,36.085 L7.048,36.085 Z" id="Shape" stroke="#50AAE0" stroke-width="0.469" sketch:type="MSShapeGroup" mask="url(#mask-48)"></path>
+                    </g>
+                </g>
+            </g>
+            <path d="M22.231,55.105 L22.231,64.334 L26.699,64.334 C27.125,61.565 29.418,59.877 32.397,59.877 C35.375,59.877 37.898,62.035 38.094,64.334 L53.858,64.334 C54.317,62.09 56.492,59.675 59.458,59.675 C62.424,59.675 65.067,62.09 65.526,64.334 L69.299,64.334 L69.299,55.105 L22.231,55.105 L22.231,55.105 Z" id="Shape" stroke="#FFFFFF" stroke-width="2.045" fill="#3F8EBD" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="2.308" fill="#3F8EBD" sketch:type="MSShapeGroup" cx="31.915" cy="65.915" r="5.915"></circle>
+            <path d="M29.959,65.481 C30.021,64.146 31.19,63.099 32.532,63.171 C33.869,63.243 34.923,64.4 34.869,65.737 C34.817,67.062 33.657,68.141 32.325,68.096 C30.936,68.047 29.895,66.896 29.959,65.481" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="2.308" fill="#3F8EBD" sketch:type="MSShapeGroup" cx="59.916" cy="65.916" r="5.916"></circle>
+            <path d="M57.093,65.545 C57.155,64.21 58.324,63.163 59.666,63.234 C61.002,63.308 62.057,64.463 62.003,65.802 C61.951,67.126 60.791,68.203 59.459,68.159 C58.068,68.111 57.027,66.96 57.093,65.545" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M16.643,28.418 C16.643,28.418 15.048,24.374 19.762,27.068 C19.762,27.068 28.574,30.69 35.386,25.228 C35.386,25.228 49.149,33.417 61.239,25.228 C61.239,25.228 69.29,31.048 75.511,28.418 C75.511,28.418 78.74,26.565 77.489,30.431 L71.366,48.512 L20.844,48.319 L16.643,28.418 Z" id="Shape" stroke="#FFFFFF" stroke-width="2.045" fill="#3F8EBD" sketch:type="MSShapeGroup"></path>
+            <path d="M28.168,28.146 L28.168,35.613 C28.168,36.177 28.624,36.634 29.187,36.634 C29.751,36.634 30.208,36.178 30.208,35.613 L30.208,28.484 C29.479,28.44 28.798,28.327 28.168,28.146" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M43.288,28.847 L43.288,33.775 C43.288,34.339 43.744,34.795 44.308,34.795 C44.871,34.795 45.329,34.339 45.329,33.775 L45.329,29.492 C44.602,29.336 43.926,29.114 43.288,28.847" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M20.916,48.513 L71.365,48.513 L69.129,55.432 L22.061,55.432 L20.916,48.513 Z" id="Shape" stroke="#FFFFFF" stroke-width="2.045" fill="#3F8EBD" sketch:type="MSShapeGroup"></path>
+            <path d="M49.829,29.676 L49.829,34.736 C49.829,35.301 50.285,35.756 50.85,35.756 C51.412,35.756 51.87,35.301 51.87,34.736 L51.87,29.258 C51.227,29.448 50.548,29.591 49.829,29.676" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M66.145,28.615 L66.145,36.082 C66.145,36.646 66.6,37.103 67.165,37.103 C67.727,37.103 68.186,36.647 68.186,36.082 L68.186,28.952 C67.455,28.909 66.775,28.795 66.145,28.615" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M22.054,60.544 L17.126,60.544 C16.562,60.544 16.106,61.002 16.106,61.565 C16.106,62.128 16.562,62.586 17.126,62.586 L21.409,62.586 C21.564,61.859 21.787,61.184 22.054,60.544" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
 </svg>

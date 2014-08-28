@@ -9,7 +9,7 @@
     "autoprefixer-stylus": "0.2.x",
     "axis": "0.2.x",
     "rupture": "0.2.x",
-    "roots": "3.0.0-rc.8"
+    "roots": "3.0.0-rc.9"
   },
   "scripts": {
     "watch": "roots watch",

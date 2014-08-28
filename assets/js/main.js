@@ -189,4 +189,23 @@ Duration (0m:2s:854ms) \n \
     [0,1,2,3,4,5,6,7],
     [0,1,2,3,4,5,6,7,8]
   ];
+  var editor = new Backbone.Marionette.Region({
+    el: '.editor'
+  });
+  var GherkCode = 'Feature: DogeCoins\n\
+  Background:\n\
+    Given I am Really Cool \
+  ';
+  var JSCode = "module.exports = function(){\n \
+    return 'Tab 1'\n\
+    }";
+  editor.show(new site.Views.Editor({
+    active: new Backbone.Model({
+      active: 0
+    }),
+    collection: new Backbone.Collection([{name: "Feature.feature", code: GherkCode, language: "gherkin"}, {name: "steps.js", code:JSCode, language: "javascript"}])
+  }))
+  var tabs = new site.Views.TabsList();
+
+  tabs.render();
 })()

@@ -7,6 +7,8 @@ html
     meta(name='author', content= "MojoTech")
     title= path
     link(rel='stylesheet', href='css/master.css')
+    link(rel="stylesheet", href="bower_components/codemirror/lib/codemirror.css")
+    link(rel="stylesheet", href="bower_components/codemirror/theme/solarized.css")
     block header
   body
     block content
@@ -15,6 +17,8 @@ html
     script(src="bower_components/lodash/dist/lodash.js")
     script(src="bower_components/backbone/backbone.js")
     script(src="bower_components/marionette/lib/backbone.marionette.js")
+    script(src="bower_components/codemirror/lib/codemirror.js")
+    script(src="bower_components/codemirror/mode/javascript/javascript.js")
     script(src="js/swf.js")
     script(src="js/YoutubePlayer.js")
     script(src="js/models/codeline.js")
@@ -23,5 +27,8 @@ html
     script(src="js/views/feature_window.js")
     script(src="js/views/step_window.js")
     script(src="js/views/terminal.js")
+    script(src="js/views/tabs-list.js")
+    script(src="js/views/editor-layout.js")
+    script(src="js/views/code-editor.js")
     script(src="js/main.js")
 

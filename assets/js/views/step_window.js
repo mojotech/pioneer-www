@@ -7,7 +7,6 @@ window.site = window.site || {};
     template: _.template(""),
     childEvents:{
       'active': function(e){
-        console.log("d")
         this.children.each(function(child){
           child.model.set('highlighted', false);
         });

@@ -89,10 +89,16 @@ td {
 a img {
   border: none;
 }
-.contain {
-  max-width: 800px;
+.contain,
+.large-contain {
   margin: 0 auto;
   padding: 0 25px;
+}
+.large-contain {
+  max-width: 1000px;
+}
+.contain {
+  max-width: 800px;
 }
 @font-face {
   font-family: 'GothamBook';
@@ -119,10 +125,7 @@ a img {
   background: rgba(0,0,0,0.4);
 }
 .top-nav ul {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+  float: right;
 }
 .top-nav ul li {
   display: inline;
@@ -145,9 +148,8 @@ a img {
   color: #346c7e;
 }
 .top-nav .logo {
-  position: absolute;
-  left: 20px;
-  top: 13px;
+  float: left;
+  margin-top: 13px;
 }
 .installing {
   background-color: #e5e5e5;
@@ -242,9 +244,22 @@ a img {
     margin-left: 0;
   }
 }
-@media screen and (max-width: 635px) {
-  .installing {
-    display: none;
+@media screen and (max-width: 710px) {
+  html .headline {
+    padding-top: 130px;
+  }
+  .top-nav {
+    text-align: center;
+  }
+  .top-nav .logo,
+  .top-nav ul {
+    float: none;
+  }
+  .top-nav ul {
+    margin-top: -30px;
+  }
+  .top-nav ul li {
+    padding: 14px;
   }
 }
 @media screen and (max-width: 600px) {

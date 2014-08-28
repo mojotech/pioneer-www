@@ -263,6 +263,9 @@ a img {
   }
 }
 @media screen and (max-width: 600px) {
+  .installing {
+    display: none;
+  }
   .component-mark.left {
     height: 53px;
     width: auto;
@@ -275,8 +278,9 @@ a img {
   }
 }
 @media screen and (max-width: 500px) {
-  .component-mark.left {
-    display: none;
+  .component-mark.left,
+  .about {
+    display: none !important;
   }
 }
 .what {

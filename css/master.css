@@ -230,6 +230,71 @@ a img {
   font-size: 14px;
   color: #888;
 }
+.what {
+  position: relative;
+  padding: 30px 0 60px;
+  background: #346c7e;
+  top: 100%;
+}
+.what-block .headline {
+  color: #eff888;
+  padding: 23px 0 10px;
+}
+.what-block .description {
+  color: #fff;
+  margin-left: 100px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 15px;
+}
+.blue-wagon {
+  float: left;
+  display: inline;
+  margin-left: -50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.get-started {
+  text-align: center;
+  padding-top: 50px;
+  background: #e5e5e5;
+}
+.get-started h3 {
+  font-size: 40px;
+}
+#getting-started {
+  padding-top: 50px;
+}
+.footer {
+  padding: 20px 0 20px;
+  margin-top: 30px;
+  border-top: solid 1px #f0f0f0;
+}
+.footer p {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #868686;
+}
+.footer a {
+  color: #00c2ff;
+  text-decoration: none;
+}
+@media screen and (max-width: 1156px) {
+  .top-nav ul {
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .top-nav ul {
+    margin: 0 auto;
+    display: block;
+  }
+  .get-started h3 {
+    font-sixze: 20px;
+  }
+}
 @media screen and (max-width: 955px) {
   .container.panes,
   .half-fill {
@@ -279,33 +344,10 @@ a img {
 }
 @media screen and (max-width: 500px) {
   .component-mark.left,
-  .about {
+  .about,
+  .fork-banner {
     display: none !important;
   }
-}
-.what {
-  position: relative;
-  padding: 30px 0 60px;
-  background: #346c7e;
-  top: 100%;
-}
-.what-block .headline {
-  color: #eff888;
-  padding: 23px 0 10px;
-}
-.what-block .description {
-  color: #fff;
-  margin-left: 100px;
-  text-align: left;
-  line-height: 25px;
-  font-size: 15px;
-}
-.blue-wagon {
-  float: left;
-  display: inline;
-  margin-left: -50px;
-  margin-right: 50px;
-  margin-top: 30px;
 }
 * {
   -moz-box-sizing: border-box;
@@ -349,8 +391,8 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../img/wagons.png");
-  background-size: 142px;
+  background: url("../img/pioneer-repeat.png");
+  background-size: 333px;
   opacity: 0.05;
   background-position: 0 100%;
 }

@@ -222,7 +222,7 @@ a img {
 }
 .components h6 {
   font-size: 30px;
-  line-height: 60px;
+  line-height: 40px;
 }
 .components p {
   text-align: left;
@@ -292,7 +292,7 @@ a img {
     display: block;
   }
   .get-started h3 {
-    font-sixze: 20px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 955px) {
